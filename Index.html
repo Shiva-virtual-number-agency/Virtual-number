@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shiva Virtual Number Agency</title>
+    <!-- Google Font & FontAwesome Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        /* Base Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        /* Clean White Background Setup */
+        body {
+            background-color: #ffffff;
+            color: #111111;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            text-align: center;
+            max-width: 600px;
+            width: 100%;
+        }
+
+        /* Main Heading */
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: #0f172a;
+            margin-bottom: 40px;
+            line-height: 1.2;
+            letter-spacing: -0.5px;
+        }
+
+        /* Buttons Container */
+        .btn-group {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            align-items: center;
+        }
+
+        /* Button Styling */
+        .btn {
+            width: 100%;
+            max-width: 320px;
+            padding: 16px 24px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            border-radius: 12px;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        }
+
+        /* Telegram Button */
+        .btn-telegram {
+            background-color: #24A1DE;
+            color: #ffffff;
+            border: 2px solid #24A1DE;
+        }
+
+        .btn-telegram:hover {
+            background-color: #1d82b4;
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(36, 161, 222, 0.3);
+        }
+
+        /* WhatsApp Button */
+        .btn-whatsapp {
+            background-color: #25D366;
+            color: #ffffff;
+            border: 2px solid #25D366;
+        }
+
+        .btn-whatsapp:hover {
+            background-color: #1eb757;
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(37, 211, 102, 0.3);
+        }
+
+        /* Mobile Responsive adjustment */
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.8rem;
+                margin-bottom: 30px;
+            }
+            .btn {
+                font-size: 1rem;
+                padding: 14px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Agency Header -->
+        <h1>Shiva Virtual Number Agency</h1>
+
+        <!-- Options / Actions -->
+        <div class="btn-group">
+            <a href="#" class="btn btn-telegram">
+                <i class="fa-brands fa-telegram fa-lg"></i>
+                Buy Telegram Account
+            </a>
+
+            <a href="#" class="btn btn-whatsapp">
+                <i class="fa-brands fa-whatsapp fa-lg"></i>
+                Buy WhatsApp Account
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>
